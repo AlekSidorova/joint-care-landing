@@ -1,11 +1,11 @@
-import styles from "./App.module.scss";
-import { Button } from "./ui/Button";
+import { Header } from './components/Header';
+import styles from './App.module.scss';
 
 function App() {
   return (
     <main className={styles.page}>
-      <section className={styles.preview}>
-        <Button>Оставить заявку</Button>
+      <section className={styles.hero}>
+        <Header />
       </section>
     </main>
   );
