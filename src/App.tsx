@@ -4,12 +4,13 @@ import styles from './App.module.scss';
 
 function App() {
   return (
-    <main className={styles.page}>
-      <section className={styles.hero}>
-        <Header />
+    <div className={styles.page}>
+      <Header />
+
+      <main>
         <Hero />
-      </section>
-    </main>
+      </main>
+    </div>
   );
 }
 
